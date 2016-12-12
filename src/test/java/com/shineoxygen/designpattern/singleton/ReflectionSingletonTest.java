@@ -1,8 +1,10 @@
-package com.shineoxygen.designpattern;
+package com.shineoxygen.designpattern.singleton;
 
 import java.lang.reflect.Constructor;
 
 import org.junit.Test;
+
+import com.shineoxygen.designpattern.singleton.BillPughSingleton;
 
 /**
  * 

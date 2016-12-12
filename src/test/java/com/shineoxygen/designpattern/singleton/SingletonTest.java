@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern;
+package com.shineoxygen.designpattern.singleton;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -13,6 +13,16 @@ import java.util.concurrent.CountDownLatch;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.shineoxygen.designpattern.singleton.BadSerializedSingleton;
+import com.shineoxygen.designpattern.singleton.BillPughSingleton;
+import com.shineoxygen.designpattern.singleton.EagerInitializedSingleton;
+import com.shineoxygen.designpattern.singleton.EnumSingleton;
+import com.shineoxygen.designpattern.singleton.GoodSerializedSingleton;
+import com.shineoxygen.designpattern.singleton.LazyInitializedSingleton;
+import com.shineoxygen.designpattern.singleton.StaticBlockSingleton;
+import com.shineoxygen.designpattern.singleton.ThreadSafeSingleton;
+import com.shineoxygen.designpattern.singleton.ThreadSafeSingletonDoubleCheckLock;
 /**
  * 
  * @author 王辉阳

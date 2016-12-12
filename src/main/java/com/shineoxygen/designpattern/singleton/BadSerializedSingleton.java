@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern;
+package com.shineoxygen.designpattern.singleton;
 
 import java.io.Serializable;
 

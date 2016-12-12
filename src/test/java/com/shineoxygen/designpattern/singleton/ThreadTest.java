@@ -1,8 +1,12 @@
-package com.shineoxygen.designpattern;
+package com.shineoxygen.designpattern.singleton;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
+
+import com.shineoxygen.designpattern.singleton.LazyInitializedSingleton;
+import com.shineoxygen.designpattern.singleton.ThreadSafeSingleton;
+import com.shineoxygen.designpattern.singleton.ThreadSafeSingletonDoubleCheckLock;
 
 /**
  * 
