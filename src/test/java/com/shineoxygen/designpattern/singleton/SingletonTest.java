@@ -29,6 +29,11 @@ import com.shineoxygen.designpattern.singleton.ThreadSafeSingletonDoubleCheckLoc
  * @date     2016年12月12日 下午12:42:40
  * @Description  单例实现总结：
  * 
+ * 单例必须满足：
+ * 1，单例类的单例变量为私有静态变量
+ * 2，单例类的构造器为私有的
+ * 3，单例类提供获取单例的公有静态方法
+ * 
  * 饿汉式单例：不能catch创建实例的异常（变量直接赋值有异常就直接抛出了），不能懒加载
  * 静态块单例（也可算作饿汉式）：可catch创建的异常，不能懒加载
  * 懒汉式单例：可catch创建单例的异常，可懒加载，线程不安全
