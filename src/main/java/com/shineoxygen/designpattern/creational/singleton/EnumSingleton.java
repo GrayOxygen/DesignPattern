@@ -1,5 +1,7 @@
 package com.shineoxygen.designpattern.creational.singleton;
 
+import java.io.Serializable;
+
 /**
  * 
  * @author 王辉阳
@@ -16,6 +18,8 @@ public enum EnumSingleton {
 	SINGLETON;
 
 	public static void doSomething() {
-		// ...
+		EntityForEnumSingleton entity = new EntityForEnumSingleton();
+		entity.setName("我是单例的方法，我做单例的事情");
+		System.out.println("线程	" + " 类字节码		" + SINGLETON.getClass() + "   :" + entity.getName());
 	}
 }

@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern.singleton;
+package com.shineoxygen.designpattern.creational.singleton;
 
 import java.lang.reflect.Constructor;
 

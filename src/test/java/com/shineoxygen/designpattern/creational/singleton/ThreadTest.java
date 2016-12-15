@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern.singleton;
+package com.shineoxygen.designpattern.creational.singleton;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -30,8 +30,12 @@ public class ThreadTest implements Runnable {
 		if (clazz == LazyInitializedSingleton.class) {
 			singles.add(LazyInitializedSingleton.getInstance());
 		}
-		if (clazz == ThreadSafeSingleton.class) {
-			singles.add(ThreadSafeSingleton.getInstance());
+		if (clazz == LazyInitializedSingleton.class) {
+			singles.add(LazyInitializedSingleton.getInstance());
+		}
+		if (clazz == EnumSingleton.class) {
+			singles.add(EnumSingleton.SINGLETON);
+			EnumSingleton.SINGLETON.doSomething();
 		}
 		if (clazz == ThreadSafeSingletonDoubleCheckLock.class) {
 			singles.add(ThreadSafeSingletonDoubleCheckLock.getInstance());

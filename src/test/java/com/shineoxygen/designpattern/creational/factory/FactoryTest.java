@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern.factory;
+package com.shineoxygen.designpattern.creational.factory;
 
 import org.junit.Test;
 
