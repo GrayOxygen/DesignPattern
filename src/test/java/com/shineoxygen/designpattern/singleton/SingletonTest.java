@@ -14,15 +14,15 @@ import java.util.concurrent.CountDownLatch;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.shineoxygen.designpattern.singleton.BadSerializedSingleton;
-import com.shineoxygen.designpattern.singleton.BillPughSingleton;
-import com.shineoxygen.designpattern.singleton.EagerInitializedSingleton;
-import com.shineoxygen.designpattern.singleton.EnumSingleton;
-import com.shineoxygen.designpattern.singleton.GoodSerializedSingleton;
-import com.shineoxygen.designpattern.singleton.LazyInitializedSingleton;
-import com.shineoxygen.designpattern.singleton.StaticBlockSingleton;
-import com.shineoxygen.designpattern.singleton.ThreadSafeSingleton;
-import com.shineoxygen.designpattern.singleton.ThreadSafeSingletonDoubleCheckLock;
+import com.shineoxygen.designpattern.creational.singleton.BadSerializedSingleton;
+import com.shineoxygen.designpattern.creational.singleton.BillPughSingleton;
+import com.shineoxygen.designpattern.creational.singleton.EagerInitializedSingleton;
+import com.shineoxygen.designpattern.creational.singleton.EnumSingleton;
+import com.shineoxygen.designpattern.creational.singleton.GoodSerializedSingleton;
+import com.shineoxygen.designpattern.creational.singleton.LazyInitializedSingleton;
+import com.shineoxygen.designpattern.creational.singleton.StaticBlockSingleton;
+import com.shineoxygen.designpattern.creational.singleton.ThreadSafeSingleton;
+import com.shineoxygen.designpattern.creational.singleton.ThreadSafeSingletonDoubleCheckLock;
 /**
  * 
  * @author 王辉阳

@@ -2,13 +2,13 @@ package com.shineoxygen.designpattern.factory;
 
 import org.junit.Test;
 
-import com.shineoxygen.designpattern.factory.abstractfactory.AbstractMovie;
-import com.shineoxygen.designpattern.factory.abstractfactory.AbstractMovieFactory;
-import com.shineoxygen.designpattern.factory.abstractfactory.ComedyMovieFactory;
-import com.shineoxygen.designpattern.factory.abstractfactory.MyMovieFactory;
-import com.shineoxygen.designpattern.factory.abstractfactory.TragedyMovieFactory;
-import com.shineoxygen.designpattern.factory.simple.Movie;
-import com.shineoxygen.designpattern.factory.simple.MovieFactory;
+import com.shineoxygen.designpattern.creational.factory.abstractfactory.AbstractMovie;
+import com.shineoxygen.designpattern.creational.factory.abstractfactory.AbstractMovieFactory;
+import com.shineoxygen.designpattern.creational.factory.abstractfactory.ComedyMovieFactory;
+import com.shineoxygen.designpattern.creational.factory.abstractfactory.MyMovieFactory;
+import com.shineoxygen.designpattern.creational.factory.abstractfactory.TragedyMovieFactory;
+import com.shineoxygen.designpattern.creational.factory.simple.Movie;
+import com.shineoxygen.designpattern.creational.factory.simple.MovieFactory;
 
 /**
  * 

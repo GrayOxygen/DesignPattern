@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 
 import org.junit.Test;
 
-import com.shineoxygen.designpattern.singleton.BillPughSingleton;
+import com.shineoxygen.designpattern.creational.singleton.BillPughSingleton;
 
 /**
  * 

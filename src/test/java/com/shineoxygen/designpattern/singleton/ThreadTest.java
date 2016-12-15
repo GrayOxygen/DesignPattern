@@ -4,9 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
-import com.shineoxygen.designpattern.singleton.LazyInitializedSingleton;
-import com.shineoxygen.designpattern.singleton.ThreadSafeSingleton;
-import com.shineoxygen.designpattern.singleton.ThreadSafeSingletonDoubleCheckLock;
+import com.shineoxygen.designpattern.creational.singleton.LazyInitializedSingleton;
+import com.shineoxygen.designpattern.creational.singleton.ThreadSafeSingleton;
+import com.shineoxygen.designpattern.creational.singleton.ThreadSafeSingletonDoubleCheckLock;
 
 /**
  * 

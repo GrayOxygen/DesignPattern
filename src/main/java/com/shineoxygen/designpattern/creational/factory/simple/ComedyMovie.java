@@ -1,16 +1,16 @@
-package com.shineoxygen.designpattern.factory.simple;
+package com.shineoxygen.designpattern.creational.factory.simple;
 
 /**
  * 
  * @author 王辉阳
- * @date 2016年12月13日 下午10:16:09
- * @Description 悲剧电影
+ * @date 2016年12月13日 下午10:16:21
+ * @Description 喜剧电影
  */
-public class TragedyMovie extends Movie {
+public class ComedyMovie extends Movie {
 	private String directorName;
 	private String movieName;
 
-	TragedyMovie(String directorName, String movieName) {
+	ComedyMovie(String directorName, String movieName) {
 		this.directorName = directorName;
 		this.movieName = movieName;
 	}
@@ -22,7 +22,7 @@ public class TragedyMovie extends Movie {
 
 	@Override
 	public String getMovieName() {
-		return movieName;
+		return this.movieName;
 	}
 
 }

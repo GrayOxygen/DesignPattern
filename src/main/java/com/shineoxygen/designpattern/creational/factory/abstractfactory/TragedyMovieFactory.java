@@ -1,4 +1,4 @@
-package com.shineoxygen.designpattern.factory.abstractfactory;
+package com.shineoxygen.designpattern.creational.factory.abstractfactory;
 
 /**
  * 
