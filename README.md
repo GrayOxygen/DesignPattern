@@ -1,5 +1,5 @@
 # DesignPattern
-该工程基于maven，jdk 8，junit 4
+该工程基于jdk 8，maven，junit 4，用单元测试讨论详细的设计模式
 
 ## 示例进度
 - 单例示例全面讨论完毕 2016-12-13
